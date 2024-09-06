@@ -11,6 +11,5 @@ import { MainComponent } from './main/main.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Aula02';
-  message = 'Olaaar'
+
 }
