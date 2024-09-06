@@ -1,0 +1,33 @@
+.titulosite{
+  font-size: 40px;
+  font-weight: bold;
+  height: 112px;
+  border-bottom: 1px dashed #d0d0d0;
+  padding: 32px;
+  }
+
+.menuusuario{
+  position: absolute;
+  top: 50px;
+  right: 32px;
+  width: fit-content;
+  z-index: 1;
+}
+
+.iconusuario{
+  width: 50px;
+  height: 50px;
+}
+
+.itemclicavel{
+  font-weight: bold;
+}
+
+.icons8person64{
+  cursor: pointer;
+}
+
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
