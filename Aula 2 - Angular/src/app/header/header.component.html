@@ -1,15 +1,15 @@
 <div class="row">
   <div class="titulosite d-flex align-items-center">
-    <span>{{this.titulosite}}</span>
+    <span> {{this.titulosite}} </span>
   </div>
 
   <div class="titulosite d-flex align-items-center col-sm justify-content-end">
-    <a (click)="this.menuusuario = !this.menuusuario">
-      <img class="iconusuario" src="assets/icons8-person-64.png">
+    <a (click)="this.menuusuario = !this.menuusuario" class="personcircle">
+      <img src="/Aula 2 - Angular/public/assets/person-circle.svg">
     </a>
   </div>
 
-  <div *ngIf="this.menuusuario" class="list-group menuusario">
+  <div *ngIf="this.menuusuario" class="list-group menuusuario">
     <li class="list-group-item disabled">MENU</li>
     <a href="#" class="list-group-item list-group-item-action itemclicavel">Admin</a>
     <a href="#" class="list-group-item list-group-item-action itemclicavel">Logout</a>
