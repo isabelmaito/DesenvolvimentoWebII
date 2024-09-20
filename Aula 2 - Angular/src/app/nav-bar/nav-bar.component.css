@@ -9,13 +9,3 @@
   background-color: white;
 }
 
-.itemclicavel{
-  font-weight: bold;
-}
-
-.menuusuario{
-  position: absolute;
-  right: 32px;
-  top: 70px;
-  z-index: 1;
-}

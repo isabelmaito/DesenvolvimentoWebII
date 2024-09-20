@@ -8,8 +8,9 @@
 
 .menuusuario{
   position: absolute;
-  right: 32px;
   top: 70px;
+  right: 32px;
+  width: fit-content !important;
   z-index: 1;
 }
 
@@ -18,7 +19,8 @@
 }
 
 .personcircle{
-  cursor: pointer;
+  width: 50px;
+  height: 50px;
 }
 
 .row{
