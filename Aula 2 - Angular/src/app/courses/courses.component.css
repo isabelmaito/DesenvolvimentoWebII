@@ -1,0 +1,15 @@
+.card-content {
+  margin-top: 65px;
+}
+
+.truncated-text {
+  max-width: 140px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.truncated-text:hover {
+  overflow: visible;
+  white-space: normal;
+}
