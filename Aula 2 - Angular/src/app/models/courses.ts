@@ -1,9 +1,9 @@
 export class Courses {
-  Id: number = 0;
-  IdCategory: number = 0;
-  Title: string = '';
-  Description: string = '';
-  Cost: number = 0;
-  Image: string = '';
-  Duration: string = '';
+  id: number = 0;
+  idCategory: number = 0;
+  title: string = '';
+  description: string = '';
+  cost: number = 0;
+  image: string = '';
+  duration: string = '';
 }

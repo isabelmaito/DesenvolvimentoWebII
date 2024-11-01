@@ -12,11 +12,11 @@ import { CommonModule } from '@angular/common';
 export class CategoryBarComponent {
 
   categories: Category[]=[
-    {id: 1, title: 'Cursos de TI', image: 'assets/TI.png'},
-    {id: 2, title: 'Category 2', image: 'assets/TI.png'},
-    {id: 3, title: 'Category 3', image: 'assets/TI.png'},
-    {id: 4, title: 'Category 4', image: 'assets/TI.png'},
-    {id: 5, title: 'Category 5', image: 'assets/TI.png'},
+    {id: 1, title: 'Tecnologia da Informação', image: 'assets/TI.png'},
+    {id: 2, title: 'Gestão de Obras', image: 'assets/TI.png'},
+    {id: 3, title: 'Metodologias Ativas', image: 'assets/TI.png'},
+    {id: 4, title: 'Projetos Mecânicos', image: 'assets/TI.png'},
+    {id: 5, title: 'Processos de Fabricação', image: 'assets/TI.png'},
   ]
 
 }
